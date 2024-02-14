@@ -26,3 +26,5 @@ for i in range(len(songs)):
         songs[j] = songs[j-1]
         j-=1
     songs[j] = t
+
+print(songs[j].song_name, songs[j].artist, songs[j].dtsongs)
