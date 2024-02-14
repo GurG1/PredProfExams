@@ -11,7 +11,7 @@ skip = f.readline()
 
 for i in f:
     s = i.split(',')
-    if (int(s[3][:-1])) == 01.01.2002:
+    if (int(s[3][:-1])) >='2002':
         songs.append(Songs())
         songs[j].artist = s[1]
         songs[j].song_name = s[2]
